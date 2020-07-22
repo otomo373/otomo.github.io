@@ -1170,7 +1170,6 @@ width: 100%;
 .main12{
   height: auto;
   padding: 40px 0;
-  padding-right:15px;
 }
 
 .main12 h1{
@@ -1190,7 +1189,7 @@ width: 100%;
 }
 
 .main12 .tables > table{
-  margin-right: 0;
+  margin-right: 15px;
 }
 
 .main12 table{

@@ -62,7 +62,7 @@ header .container{
 } 
 
 .main1 {
-  background-image: url(./bts/main.jpg);
+  background-image: url(../bts/main.jpg);
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -162,7 +162,7 @@ header .container{
 }
 
 .main3{
-  background-image: url(./bts/introbottom.jpg);
+  background-image: url(../bts/introbottom.jpg);
   background-size: cover;
   width: auto;
   height: 587px;
@@ -306,7 +306,7 @@ header .container{
 }
 
 .main5{
-  background-image: url(./bts/aboutsecondbg.jpg);
+  background-image: url(../bts/aboutsecondbg.jpg);
   background-size: cover;
   height: 445px;
   width: auto;
@@ -475,7 +475,7 @@ width: 100%;
 
 .main9{
   height: 1390px;
-  background-image: url(./bts/teacherbg.jpg);
+  background-image: url(../bts/teacherbg.jpg);
   background-size: cover;
   color: white;
   padding: 80px 0 40px;
@@ -607,7 +607,7 @@ width: 100%;
 }
 
 .main12{
-  background-image: url(./bts/classbg.jpg);
+  background-image: url(../bts/classbg.jpg);
   background-size: cover;
   height: 800px;
 }
@@ -714,7 +714,7 @@ width: 100%;
 
 .main15{
   height: 495px;
-  background-image: url(./bts/bangkokbg.jpg);
+  background-image: url(../bts/bangkokbg.jpg);
   background-size: cover;
   color: #ffffff;
   text-align: initial !important;
@@ -928,38 +928,43 @@ width: 100%;
   }
 
   .main5{
-    height: 650px;
+    height: auto;
     background-position: center;
     padding: 10px;
   }
 
   .main5 h1{
-    font-size: 17px;
-    margin-top: 30px;
+    font-size: 20px;
     font-weight: 600;
+    line-height: 20px;
   }
 
   .main5 h2{
     font-size: 13px;
     font-weight: 600;
     margin-top: 10px;
+    line-height: 20px;
   }
 
   .main5 .bottomWrapper{
     flex-wrap: wrap;
+    padding: 0;
   }
 
   .main5 .bottomWrapper .item{
-    padding: 15px 50px;
+    padding: 15px 60px;
     height: auto;
     margin-top: 10px;
+    margin-right: 0;
   }
 
   .main5 .bottomWrapper .item .step{
     color: white;
-    font-size: 15px;
-    font-weight: 600;
-    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    line-height: 20px;
   }
 
   .main5 .bottomWrapper .item .txt{
@@ -967,18 +972,29 @@ width: 100%;
     font-weight: 600;
     margin-top: 10px;
   }
-
-  .main6{
+  
+  .main5 .bottomWrapper .item .txt1{
+    margin: 0;
     font-size: 12px;
-    font-weight: 600;
-    height: auto;
-    padding: 18px;
-    letter-spacing: 2px;
-    color: #ffffff;
+  }
+  
+  .main5 .bottomWrapper .item .txt2{
+    margin: 0;
+    font-size: 12px;
   }
 
-.main6 p{
-  margin: 0;
+  .main6{
+    height: auto;
+    padding: 18px;
+    color: #ffffff;
+  }
+  
+  .main6 p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 18px;
 }
 
 .main7{
@@ -994,8 +1010,9 @@ width: 100%;
 }
 
 .main7 h2{
-  font-size: 17px;
+  font-size: 16px;
   margin: 10px;
+  line-height: 20px;
 }
 
 .main7 .imgs{

@@ -13,10 +13,12 @@ header{
   top: 0;
   width: 100%;
   z-index: 100;
+
 }
 
 header .container{
-  margin: 0 50px ;
+  margin: 0 auto ;
+  width: 100%;
 }
 
 .header-left{
@@ -60,7 +62,7 @@ header .container{
 } 
 
 .main1 {
-  background-image: url(./bts/main.jpg);
+  background-image: url(../bts/main.jpg);
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -160,7 +162,7 @@ header .container{
 }
 
 .main3{
-  background-image: url(./bts/introbottom.jpg);
+  background-image: url(../bts/introbottom.jpg);
   background-size: cover;
   width: auto;
   height: 587px;
@@ -304,7 +306,7 @@ header .container{
 }
 
 .main5{
-  background-image: url(./bts/aboutsecondbg.jpg);
+  background-image: url(../bts/aboutsecondbg.jpg);
   background-size: cover;
   height: 445px;
   width: auto;
@@ -315,8 +317,23 @@ header .container{
   color: white;
 }
 
+.main5 h1{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  padding: 20px 0;
+}
+
+.main5 h2{
+font-size: 20px;
+line-height: 32px;
+font-weight: 600;
+margin-bottom: 10px;
+}
+
 .main5 .bottomWrapper{
   display: flex;
+  padding: 20px;
 }
 
 .main5 .bottomWrapper .item{
@@ -324,12 +341,29 @@ header .container{
   border-radius: 5px;
   width: 380px;
   height: 180px;
-  padding: 10px;
+  padding: 25px;
   margin-right: 10px;
 }
 
 .main5 .bottomWrapper .item .step{
   background-color: #EBB94D;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.main5 .bottomWrapper .item .txt1{
+font-size: 14px;
+font-weight: 600;
+line-height: 22px;
+margin: 30px 0 15px;
+}
+
+.main5 .bottomWrapper .item .txt2{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
 }
 
 .main5 span{
@@ -346,6 +380,12 @@ header .container{
   justify-content: center;
 }
 
+.main6 p{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
 .main6 span{
   color: #EBB94D;
 }
@@ -353,11 +393,33 @@ header .container{
 .main7{
   height: 510px;
   text-align: center;
+  padding-top: 40px;
+}
+
+.main7 h1{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 20px auto 35px;
+}
+
+.main7 h2{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.main7 p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
 }
 
 .main7 .imgs{
   display: flex;
   display: inline-block;
+  margin: 40px auto;
 }
 
 .main7 img{
@@ -407,11 +469,13 @@ width: 100%;
 .main8 .bottomWrapper .title{
   margin-top: 50px;
   color: #ebb94d;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 .main9{
   height: 1390px;
-  background-image: url(./bts/teacherbg.jpg);
+  background-image: url(../bts/teacherbg.jpg);
   background-size: cover;
   color: white;
   padding: 80px 0 40px;
@@ -543,7 +607,7 @@ width: 100%;
 }
 
 .main12{
-  background-image: url(./bts/classbg.jpg);
+  background-image: url(../bts/classbg.jpg);
   background-size: cover;
   height: 800px;
 }
@@ -650,7 +714,7 @@ width: 100%;
 
 .main15{
   height: 495px;
-  background-image: url(./bts/bangkokbg.jpg);
+  background-image: url(../bts/bangkokbg.jpg);
   background-size: cover;
   color: #ffffff;
   text-align: initial !important;

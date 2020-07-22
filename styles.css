@@ -160,7 +160,7 @@ header .container{
 }
 
 .main3{
-  background-image: url(../bts/introbottom.jpg);
+  background-image: url(./bts/introbottom.jpg);
   background-size: cover;
   width: auto;
   height: 587px;
@@ -304,7 +304,7 @@ header .container{
 }
 
 .main5{
-  background-image: url(../bts/aboutsecondbg.jpg);
+  background-image: url(./bts/aboutsecondbg.jpg);
   background-size: cover;
   height: 445px;
   width: auto;
@@ -411,7 +411,7 @@ width: 100%;
 
 .main9{
   height: 1390px;
-  background-image: url(../bts/teacherbg.jpg);
+  background-image: url(./bts/teacherbg.jpg);
   background-size: cover;
   color: white;
   padding: 80px 0 40px;
@@ -543,7 +543,7 @@ width: 100%;
 }
 
 .main12{
-  background-image: url(../bts/classbg.jpg);
+  background-image: url(./bts/classbg.jpg);
   background-size: cover;
   height: 800px;
 }
@@ -650,7 +650,7 @@ width: 100%;
 
 .main15{
   height: 495px;
-  background-image: url(../bts/bangkokbg.jpg);
+  background-image: url(./bts/bangkokbg.jpg);
   background-size: cover;
   color: #ffffff;
   text-align: initial !important;

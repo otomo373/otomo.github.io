@@ -884,6 +884,7 @@ width: 100%;
   
   .main3 h1::after {
     bottom: auto;
+    right:10px;
   }
 
 
@@ -1169,6 +1170,7 @@ width: 100%;
 .main12{
   height: auto;
   padding: 40px 0;
+  padding-right:15px;
 }
 
 .main12 h1{

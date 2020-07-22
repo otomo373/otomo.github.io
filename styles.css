@@ -60,7 +60,7 @@ header .container{
 } 
 
 .main1 {
-  background-image: url(../bts/main.jpg);
+  background-image: url(./bts/main.jpg);
   background-size: cover;
   background-position: center;
   height: 500px;
